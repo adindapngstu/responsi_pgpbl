@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# Welcome to your Travelio! 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📌 TRAVELIO
 
-## Get started
+## 📝 Deskripsi Produk
+Aplikasi ini digunakan untuk merencanakan perjalanan dengan mencatat lokasi, aktivitas, rute perjalanan, dan catatan penting. Mendukung penggunaan offline dan memudahkan pengguna mengorganisir itinerary secara efisien.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🧩 Komponen dan Pembangun Produk
+Berisi daftar teknologi, library, atau komponen utama yang digunakan.
 
-2. Start the app
+- **Frontend / Mobile App**
+  - React Native
+  - Expo (opsional)
+  - React Navigation
+- **Backend / Database**
+  - Firebase Firestore
+- **Peta & Geolocation**
+  - Nominatim OpenStreetMap API
+  - Leaflet / React Native Maps
+- **Tools Lainnya**
+  - GitHub untuk version control
+  - VS Code sebagai IDE
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Sumber Data
 
-In the output, you'll find options to open the app in a
+- **OpenStreetMap (OSM)** – sebagai sumber data peta dan geocoding (Nominatim).
+- **Internal Database (Firestore)** – untuk menyimpan data perjalanan pengguna.
+- **Data manual pengguna** – input lokasi, catatan, dan aktivitas.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+##Komponen Produk:
+![WhatsApp Image 2025-12-05 at 05 28 50_7c4b8fab](https://github.com/user-attachments/assets/1a252dcc-fea4-41d8-af44-e31f5ee60d04)
+![WhatsApp Image 2025-12-05 at 05 28 51_ee2af9fd](https://github.com/user-attachments/assets/3a3d5577-df8c-4ee0-8f40-bfe7fceb1d29)
+![WhatsApp Image 2025-12-05 at 05 28 51_e53fc130](https://github.com/user-attachments/assets/9d92c115-c457-4add-829e-d48ae34eb70c)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
